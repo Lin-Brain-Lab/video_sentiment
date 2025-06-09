@@ -5,8 +5,8 @@ Build a computational models to generate emotional ratings based on video clips.
 # Model
 
 The model consists of 3 parts:
-- [Comment model]: read video viewers comment to generate emotion ratings
-- [Transcript model]: use video's transcript (diaglogue/conversations between actors and actresses) to generate emotion ratings
-- [Soundtrck model]: use video's audio track (non-conversational) to generate emotion ratings
+- [Comment model](https://github.com/Lin-Brain-Lab/video_sentiment/wiki/Soundtrack-model): read video viewers comment to generate emotion ratings
+- [Transcript model](https://github.com/Lin-Brain-Lab/video_sentiment/wiki/Soundtrack-model): use video's transcript (diaglogue/conversations between actors and actresses) to generate emotion ratings
+- [Soundtrck model](https://github.com/Lin-Brain-Lab/video_sentiment/wiki/Soundtrack-model): use video's audio track (non-conversational) to generate emotion ratings
 
   
