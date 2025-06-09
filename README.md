@@ -1,6 +1,6 @@
 # Video sentiment analysis
 
-Build a computational models to generate emotional ratings based on video clips.  Outputs are valence/arounsal levels and/or emmotion category
+Build computational models to generate emotional ratings based on video clips.  Outputs are valence/arounsal levels and/or emmotion category
 
 # Model
 
