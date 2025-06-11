@@ -40,8 +40,7 @@ A three-stream model that tracks sentiment **over time** in a video clip using t
   - Primary: [DailyDialog](https://paperswithcode.com/dataset/dailydialog)
   - Exploring: [CMU-MOSEI](http://multicomp.cs.cmu.edu/resources/cmu-mosei-dataset/)
 - **Status**: 
-  - 84% accuracy on current dataset
-  - Progress stalled due to class imbalance
+  - 79% accuracy on current dataset
 - **Input**: Sentence-level dialogue
 - **Output**: One of six emotion labels per sentence
 
