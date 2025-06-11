@@ -16,7 +16,7 @@ The project is split into two major parts:
 
 This model predicts a video clip’s overall emotion using the top 50 English-language comments on the clip.
 
-- **Model**: Support Vector Machine 
+- **Model**: XGBoost + Random Forest
 - **Tools** : Youtube API, Youtube clips
 - **Input**: Top 50 most-liked comments per youtuve clip
 - **Output**: One of four emotions — `Neutral`, `Funny`, `Fear`, `Sad`
@@ -24,7 +24,7 @@ This model predicts a video clip’s overall emotion using the top 50 English-la
   - 7,500 hand-labeled YouTube comments by emotion. 
   - Non-English and irrelevant comments filtered out
 - **Performance**:  
-  - **Accuracy**: 86% on a 4-class classification task
+  - **Accuracy**: 87% on a 5-class classification task
 - **Dataset** : https://docs.google.com/spreadsheets/d/1Ku0KQfNMllORcpadlNv-Ji9PYh5i9pGND68dlw5EFbk/edit?usp=sharing 
 
 ---
@@ -35,7 +35,7 @@ A three-stream model that tracks sentiment **over time** in a video clip using t
 
 #### 1️⃣ Transcript Model
 - **Goal**: Predict emotion per line of dialogue
-- **Model**: XGBoost Model
+- **Model**: SBERT powered One-Vs-Rest sentiment classification
 - **Dataset**: 
   - Primary: [DailyDialog](https://paperswithcode.com/dataset/dailydialog)
   - Exploring: [CMU-MOSEI](http://multicomp.cs.cmu.edu/resources/cmu-mosei-dataset/)
